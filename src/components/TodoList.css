@@ -1,0 +1,48 @@
+input{
+    border: none;
+    box-shadow: 0px 0px 10px rgba(67, 65, 65,.4);
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+input:focus{
+    text-decoration: none;
+}
+
+input:focus-within{
+    border: 2px solid aqua;
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+button{
+    width: auto;
+    padding: 10px 30px;
+    margin: 10px;
+    border: 2px solid white;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 10px rgba(67, 65, 65,.4);
+    cursor: pointer;
+    border-radius: 200px;
+}
+button:active{
+    color: aqua;
+    background-color: antiquewhite;
+}
+
+.card{
+    flex: 0 0 calc(33.33% - 20%);
+    max-width: calc(33.33% - 20%);
+    width: 800%;
+    background-color: rgb(193, 243, 226);
+    padding: 20px;
+    margin-bottom: 20px;
+}
